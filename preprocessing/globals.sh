@@ -1,14 +1,15 @@
 #! /bin/bash
 
-module load anacondapy/5.3.1
+#module load anacondapy/5.3.1
 
 # 1. Edit wherever the dicoms get transferred on the scanner
-scanner_dir=/jukebox/dicom/conquest/Skyra-AWP45031/NormaL/2020 #Skyra
+#scanner_dir=/jukebox/dicom/conquest/Skyra-AWP45031/NormaL/2020 #Skyra
 #scanner_dir=/jukebox/dicom/conquest/Prisma-MSTZ400D/NormaL/2020 #Prisma
 #scanner_dir=/jukebox/norman/pygers/conquest #Sample project data
+scanner_dir=~/Documents/College/ThirdYear/pygers_workshop/sample_data #sample project data on my local server
 
 # 2. Edit where your project directory is
-project_dir=/jukebox/YOURLAB/USERNAME/YOURSTUDY
+project_dir=~/Documents/College/ThirdYear/pygers_workshop/sample_study
 
 data_dir=$project_dir/data
 bids_dir=$data_dir/bids
